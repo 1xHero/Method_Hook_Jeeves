@@ -28,6 +28,12 @@ namespace Method_Hook_Jeeves
         Boolean iflag; // флаг отражает был ли весь поиск успешным или нет
         double[] mainx1, mainx2; //массивы хранящие базовые точки
         double kp1, kp2, kp1_old, kp2_old; // точки, построенные при движении по образцу
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
         double ftest,x1test,x2test; // функция для проверки поля
         int proverka; // счетчик для предотвращения зацикливания
 
